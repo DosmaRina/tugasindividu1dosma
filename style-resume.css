@@ -1,0 +1,112 @@
+.top-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*gap: 50px;*/
+}
+
+.content-box {
+	width: 98%;
+	padding: 0;
+}
+
+.sub-cb-box {
+	padding: 20px 50px;
+}
+
+.top-menu h2 {
+	color: #000;
+	font-family: Poppins;
+	font-size: 27.737px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 46.229px; /* 166.667% */
+	letter-spacing: 0.693px;
+}
+
+.items-top-menu {
+	width: 40%;
+}
+
+.konten-top-menu {
+	border-radius: 9.246px;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.konten-top-menu.warna-1 {
+	background: #FFE3BF;
+}
+
+.konten-top-menu.warna-2 {
+	background: #FFEED9;
+}
+
+.konten-top-menu .date {
+	color: rgba(26, 16, 3, 0.50);
+	font-family: Raleway;
+	font-size: 13.869px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.konten-top-menu .judul {
+	color: #000;
+	font-family: Raleway;
+	font-size: 13.869px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin: 10px 0;
+}
+.konten-top-menu .where {
+	color: #000;
+	font-family: Raleway;
+	font-size: 13.869px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.bottom-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 50px;
+	background: #F8FBFB;
+}
+
+.bottom-menu h3 {
+	color: #000;
+	font-family: Poppins;
+	font-size: 27.737px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 46.229px; /* 166.667% */
+	letter-spacing: 0.693px;
+}
+
+.items-bottom-menu {
+	width: 40%;
+}
+
+.box-skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box-skills div {
+	color: #000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 200% */
+	letter-spacing: 0.24px;
+	border-radius: 8px;
+	background: #E1E8EF;
+	padding: 4px 8px;
+	margin: 5px 10px;
+}

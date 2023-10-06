@@ -1,0 +1,110 @@
+.content-box {
+	width: 98%;
+}
+
+.card-contact {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.card-contact span {
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px; /* 250% */
+	letter-spacing: 0.4px;
+}
+
+.card-contact p {
+	color: rgba(0, 0, 0, 0.85);
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px; /* 285.714% */
+	letter-spacing: 0.35px;
+	margin: 0;
+	padding: 0;
+}
+
+.card-contact img {
+	padding: 8px 5px;
+}
+
+.card-contact .items {
+	flex-basis: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #ddd;
+  border-radius: 20px;
+  padding: 30px 15px;
+}
+
+.card-contact .items.warna-1 {
+	background: #FFEED9;
+}
+
+.card-contact .items.warna-2 {
+	background: #F2F7FC;
+}
+
+.msg-box {
+	margin-top: 20px;
+	border-radius: 20px;
+	background: #F8FBFB;
+	padding: 40px;
+}
+
+.msg-box p {
+	color: #000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px; /* 187.5% */
+	letter-spacing: 0.4px;
+}
+
+.msg-box label {
+	color: #000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px; /* 125% */
+	letter-spacing: 0.4px;
+}
+
+.msg-box input {
+	width: 100%;
+	background: rgba(0,0,0,0);
+	border: none;
+	line-height: 24px;
+	border-bottom: 1px solid #000;
+}
+
+.msg-box form div {
+	margin-top: 20px;
+}
+
+.msg-box form button {
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+	border: 1px solid #FD8A18;
+	margin-top: 35px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	color: #000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px; /* 166.667% */
+}
